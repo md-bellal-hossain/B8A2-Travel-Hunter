@@ -1,0 +1,76 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Mulish;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    padding: 20px 120px;
+}
+section{
+    margin-top: 50px;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo>img {
+    width: 48px;
+    flex-shrink: 0;
+    padding-right: 10px;
+}
+
+.logo-text {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.custom-text {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav>ul {
+    display: flex;
+
+}
+
+.nav>ul>li {
+    padding-left: 20px;
+    list-style: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Main */
+.banner>form{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
